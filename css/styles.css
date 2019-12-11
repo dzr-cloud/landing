@@ -115,6 +115,7 @@ button:hover {
     background: #131313;
     display: flex;
     /* width: 1171px; */
+    padding-bottom: 416px;
 }
 .completed h2 {
     font-size: 27px;
@@ -140,7 +141,6 @@ button:hover {
 .projects {
     padding-left: 135px;
     padding-top: 177px;
-    padding-bottom: 416px;
     width: 442px;
     height: 390px;
 }
@@ -188,4 +188,21 @@ button:hover {
     width: 679px;
     height: 482px;
     /* padding-left: 50px; */
+}
+
+/* Блок с камерой */
+.online_control {
+    margin-top: -360px;
+    text-align: center;
+    color: white;
+    font-family: Yeseva;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+}
+.online_pic {
+    width: 817px;
+    height: 434px;
+    display: inline-block;
+    margin-top: 31px;
 }
