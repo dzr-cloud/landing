@@ -6,43 +6,85 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>IC Repair Design Project</title>
     <link rel="stylesheet" href="css/styles.css">
+    <script src="js/index.js"></script>
 </head>
 <body>
-    <nav>
-        <div class="navwrapper">
-            <div class="logo">IC "Repair Design Project"</div>
-            <ul class="nav" type="none" >
-            <li><a href="#" >HOME</a></li>
-            <li><a href="#">PROJECTS</a></li>
-            <li><a href="#">MEASUREMENT</a></li>
-            <li><a href="#">TEAM</a></li>
-            <li><a href="#">REVIEWS</a></li>
-            <li><a href="#">CONTACTS</a></li>
+   
+    <div class="header">
+        <div class="container header-content">
+                <div class="logo">IC "Repair Design Project"</div>
+            <nav>
+                <ul class="nav" type="none" >
+                <li><a class="nav_item" href="#">HOME</a></li>
+                <li><a class="nav_item" href="#">PROJECTS</a></li>
+                <li><a class="nav_item" href="#">MEASUREMENT</a></li>
+                <li><a class="nav_item" href="#">TEAM</a></li>
+                <li><a class="nav_item" href="#">REVIEWS</a></li>
+                <li><a class="nav_item" href="#">CONTACTS</a></li>
+                <div class="phone"><a href="tel:+79287683239" style="color: #E3B873"><u> +7 (928) 768-32-39</u></a></div>
             </ul>
-            <div class="phone"><a href="tel:+79287683239" style="color: #E3B873"> +7 (928)768-32-39</a></div>
-            <button class="call" style="color: white"> REQUEST A CALL</button>
-        </div>
-    </nav>
-    <div class="main">
-    <div class="main_image"><img src="./img/bg.png" alt="фон"></div>
-        <div class="main_text">
-            <h1 class="header">Turnkey Repair in the <br> city of <span>Rostov-on-Don</span></h1>
-            <div class="text">Get ready-made turnkey repairs on time <br> with work time saving up to 45 days and 20% from <br> cost of materials due to the organization of work</div>
-        <div class="buttons">
-        <button class="calculate">CALCULATE THE COST</button>
-        <button class="submit">SUBMIT YOUR APPLICATION</button>
+            </nav>
+                <button class="button"> REQUEST A CALL</button>
+       
         </div>
     </div>
-    <div class="completed">
-        <div class="completed_content">
-            <div class="examples">
-                    <ul type="none">
-                    <li>Rostov-on-Don, Admiral</li> 
-                    <li>Sochi Thieves</li>
-                    <li>Rostov-on-Don Patriotic</li>
-                    </ul> 
+    
+    <div class="main">
+        <div class="hero">
+            <div class="container_text">
+                <h1 class="header_1">Turnkey Repair in the <br> city of <span>Rostov-on-Don</span></h1>
+                <div class="text">Get ready-made turnkey repairs on time <br> with work time saving up to 45 days and 20% from <br> cost of materials due to the organization of work</div>
+            <div class="buttons">
+                <button class="calculate">CALCULATE THE COST</button>
+                <button class="submit">SUBMIT YOUR APPLICATION</button>
+            </div>
             </div>
         </div>
     </div>
+    
+    <div class="completed"> <!-- общий контент -->
+        <div class="projects"> <!--левая половина-->
+            <div class="completed_projects">
+            <h2>Completed <br> projects</h2>
+            <div class="projects_line"></div>
+            </div>
+
+            <p>Only a small part of the work performed by our company is presented on the site. For 14 years on in the construction market we have made happy more than 1000 families</p>
+            
+            <div class="slider">
+                <div class="slider_item">
+                    <h3>City:</h3>
+                    <p>Rostov-on-Don LCD admiral</p>
+                </div>
+                <div class="slider_item">
+                    <h3>Apartment area:</h3>
+                    <p>81 m<sup>2</sup></p>
+                </div>
+                <div class="slider_item">
+                    <h3>Repair time:</h3>
+                    <p>3.5 months</p>
+                </div>
+                <div class="slider_item">
+                    <h3>Repair Cost:</h3>
+                    <p>Upon request</p>
+                </div>
+
+            </div>
+        </div>
+        
+        <div class="examples"> <!--правая половина-->
+            <div class="examples_nav">
+                <a class="examples_item" href="#">Rostov-on-Don, Admiral</a>
+                <a class="examples_item" href="#">Sochi Thieves</a>
+                <a class="examples_item" href="#">Rostov-on-Don Patriotic</a>
+            </div>
+        
+            <div class="examples_pic">
+                <img src="./img/image 2.1.png" alt="пример проекта">
+            </div>
+        </div>
+    </div>
+    
+    
 </body>
 </html>
