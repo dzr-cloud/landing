@@ -114,7 +114,6 @@ button:hover {
 .completed {
     background: #131313;
     display: flex;
-    /* width: 1171px; */
     padding-bottom: 416px;
 }
 .completed h2 {
@@ -157,6 +156,16 @@ button:hover {
     width: 161px;
     padding-right: 50px;
 }
+.arrows {
+    display: inline;
+}
+/* .dot {
+    width: 9.6px;
+    height: 9.6px;
+    border-radius: 50%;
+    color: white;
+    border: 2px solid white;
+} */
 
 /* правая половина */
 .examples {
@@ -205,4 +214,21 @@ button:hover {
     height: 434px;
     display: inline-block;
     margin-top: 31px;
+}
+.camera-dash1 {
+    display: block;
+    margin-top: 63px;
+}
+.online-text {
+    color: black;
+    width: 681px;
+    height: 131px;
+    margin-top: 34.5px;
+    text-align: center;
+    display: inline-block;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 37px;
 }
