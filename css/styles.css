@@ -13,7 +13,8 @@ body {
 }
 .container {
     max-width: 1438px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    margin-left: 134px;
 }
 a {
     text-decoration: none;
@@ -51,6 +52,10 @@ a:hover {
     text-decoration: none;
     color: white;
 }
+.phone {
+    color: #E3B873;
+    text-decoration: none;
+}
 .button {
     width: 161px;
     height: 37px;
@@ -65,12 +70,12 @@ a:hover {
     padding: 13px 33px;
 }
 .hero {
-    background-image: url(../img/bg.png);
+    background-image: url(../img/bg1.jpg);
     background-size: cover;
     position: relative;
     height: 707px;
     padding-top: 194px;
-    padding-left: 134px;
+    /* padding-left: 134px; */
 }
 .container_text {
     width: 605px;
@@ -138,7 +143,7 @@ button:hover {
     line-height: 27px;
 }
 .projects {
-    padding-left: 135px;
+    /* padding-left: 135px; */
     padding-top: 177px;
     width: 442px;
     height: 390px;
@@ -153,8 +158,8 @@ button:hover {
     flex-wrap: wrap;
 }
 .slider_item {
-    width: 161px;
-    padding-right: 50px;
+    width: 50%;
+    /* padding-right: 50px; */
 }
 .arrows {
     display: inline;
