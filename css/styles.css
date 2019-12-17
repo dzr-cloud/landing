@@ -6,6 +6,13 @@
     src: url(../fonts/YesevaOne-Regular.ttf);
     font-family: Yeseva;
 }
+*, *:after, *:before {
+	box-sizing: border-box;
+	padding: 0;
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+}
 body {
     font-family: Nunito, sans-serif;
     margin: 0;
@@ -143,6 +150,7 @@ button:hover {
     font-weight: normal;
     font-size: 14px;
     line-height: 27px;
+    /* margin-top: 34px; */
 }
 .projects {
     /* padding-left: 135px; */
@@ -156,12 +164,14 @@ button:hover {
     color: #E3B873;
 }
 .slider {
+    margin-top: 42px;
     display: flex;
     flex-wrap: wrap;
 }
 .slider_item {
     width: 50%;
     /* padding-right: 50px; */
+    margin-top: 34px;
 }
 .arrows {
     display: inline;
@@ -239,6 +249,22 @@ button:hover {
     font-size: 18px;
     line-height: 37px;
 }
+.form {
+    width: 769px;
+    height: 51px;
+    color: black;
+    border: none;
+}
+.form_btn {
+    width: 200px;
+    height: 51px;
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 27px;
+    text-align: center;
+}
 
 .types_repair {
     text-align: center;
@@ -272,7 +298,10 @@ button:hover {
     font-weight: normal;
     font-size: 13px;
     line-height: 27px;
+    position: relative;
     z-index: 1;
+    margin-left: auto;
+    margin-right: auto;
 }
 /* .repair_text ul {
     margin-left: 0;
@@ -309,3 +338,12 @@ button:hover {
     /* padding: 0 100px; */
 
 }
+/* Блок 3 */
+.building {
+    margin-top: 100px;
+    width: 1006px;
+    height: 645px;
+}
+/* .building_item {
+    display: inline-block;
+} */

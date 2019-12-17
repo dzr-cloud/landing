@@ -46,7 +46,7 @@
             <div class="projects"> <!--левая половина-->
                 <div class="completed_projects">
                 <h2>Completed <br> projects</h2>
-                <div class="projects_line"></div>
+                <div class="projects_line"></div> <!-- черта в заголовке -->
                 </div>
                 <p>Only a small part of the work performed by our company is presented on the site. For 14 years on in the construction market we have made happy more than 1000 families</p>
                 <div class="slider">
@@ -107,8 +107,23 @@
         </div>
         
         <!-- Форма обратной связи -->
-        <div class="form-wrap">
-            
+        <div class="form">
+            <form action="/login" method="post">
+                <fieldset>
+                    <label>
+                     Name:
+                      <input type="text" name="username" placeholder="What is your name:">
+                    </label>
+                    <label>
+                      Phone:
+                      <input type="text" name="phone" placeholder="Your phone number:">
+                    </label>
+                </fieldset>
+            </form>
+            <button class="button form_btn">SUBMIT</button>
+        </div>
+        <div class="checkbox">
+            <p>I agree to the processing of personal data</p>
         </div>
     </div>
     
@@ -167,6 +182,20 @@
                 </ul>
                 <button class="repair_button">from 4000 rub / m2</button>
             </div>
+        </div>
+    </div>
+
+    <!-- Блок 3 -->
+    <div class="building">
+       <div class="building_list">
+            <div class="building_item">01</div>
+            Our specialist will arrive for measurements per day contact, or appoint a date convenient for you
+            <div class="building_item">02</div>
+            Free metering
+            <div class="building_item">03</div>
+            <p>Free consultation</p>
+            <div class="building_item">04</div>
+            <p>Get a cost estimate and the timing of your future repairs</p>
         </div>
     </div>
 </body>
