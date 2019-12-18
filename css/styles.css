@@ -16,6 +16,7 @@
 body {
     font-family: Nunito, sans-serif;
     margin: 0;
+    color: black;
 }
 body * {
     box-sizing: border-box;
@@ -290,9 +291,16 @@ input {
     margin-left: 49px;
 }
 .checkbox {
-    margin-top: 39px;
+    line-height: 163.68%;
+    width: 286px;
+    height: 18px;
+    margin: 39px auto;
+}
+.checkbox label {
     color: black;
-
+    font-family: Nunito;
+    font-weight: normal;
+    font-size: 14px;
 }
 .types_repair {
     text-align: center;
