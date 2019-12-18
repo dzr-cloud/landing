@@ -249,11 +249,34 @@ button:hover {
     font-size: 18px;
     line-height: 37px;
 }
+
+/* Форма */
 .form {
     width: 769px;
     height: 51px;
+    margin-top: 92px;
     color: black;
+    margin: 0 auto;
+}
+fieldset {
     border: none;
+    margin: 0 auto;
+}
+label {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(54, 54, 54, 0.5);
+}
+input {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    /* color: black; */
+    border-bottom: 2px solid black;
 }
 .form_btn {
     width: 200px;
@@ -263,12 +286,20 @@ button:hover {
     font-weight: normal;
     font-size: 13px;
     line-height: 27px;
-    text-align: center;
+    /* text-align: center; */
+    margin-left: 49px;
 }
+.checkbox {
+    margin-top: 39px;
+    color: black;
 
+}
 .types_repair {
     text-align: center;
     margin-top: 76px;
+}
+.types_repair>img {
+    margin-top: 13px;
 }
 .types_repair h2 {
     font-family: Yeseva;
@@ -344,6 +375,3 @@ button:hover {
     width: 1006px;
     height: 645px;
 }
-/* .building_item {
-    display: inline-block;
-} */
